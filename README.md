@@ -14,7 +14,7 @@ The application is divided into three logical modules:
  
 ## 🔍 Module Breakdown
 
-### 1. Hand Tracking (`hand_tracking.py`)
+### 1. Hand Tracking (`Trackhand.py`)
 - Uses **MediaPipe Hands** for real-time hand landmark detection
 - Processes webcam frames using OpenCV
 - Detects up to one hand by default
@@ -25,7 +25,7 @@ The application is divided into three logical modules:
 - Hand landmark detection
 - Landmark visualization
 
-### 2. Gesture Detection (`gesture_detection.py`)
+### 2. Gesture Detection (`gesture_det.py`)
 
 #### Hand Open / Closed Detection
 - Computes distances between:
